@@ -1,0 +1,29 @@
+{
+  "name": "cypress-project",
+  "version": "1.0.0",
+  "description": "Exemplary test suite using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "start-web-app": "npm run start --prefix ngx-admin-lite",
+    "start-api-app": "npm run start --prefix angular-realworld-example-app",
+    "cy-open": "cypress open --e2e --browser chrome",
+    "cypress-run-web": "cypress run --browser chrome --spec 'cypress/e2e/frontendTests.cy.ts'",
+    "cypress-run-api": "cypress run --browser chrome --spec 'cypress/e2e/apiTests.cy.ts'",
+    "cy-run-web": "start-server-and-test start-web-app http-get://localhost:4200 cypress-run-web",
+    "cy-run-api": "start-server-and-test start-api-app http-get://localhost:4200 cypress-run-api"
+  },
+  "keywords": [
+    "cypress",
+    "test automation",
+    "typescript"
+  ],
+  "author": "Dominik Fraczek",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.3.0",
+    "cypress-mochawesome-reporter": "^3.2.3",
+    "start-server-and-test": "^1.15.2",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {}
+}

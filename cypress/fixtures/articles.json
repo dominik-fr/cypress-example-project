@@ -1,0 +1,43 @@
+{
+    "articles": [
+        {
+            "slug": "Create-a-new-implementation-1",
+            "title": "Create a new implementation",
+            "description": "join the community by creating a new implementation",
+            "body": "Share your knowledge and enpower the community by creating a new implementation",
+            "tagList": [
+                "implementations"
+            ],
+            "createdAt": "2022-12-09T13:46:24.264Z",
+            "updatedAt": "2022-12-09T13:46:24.264Z",
+            "favorited": false,
+            "favoritesCount": 1,
+            "author": {
+                "username": "Anah Benešová",
+                "bio": null,
+                "image": "https://api.realworld.io/images/demo-avatar.png",
+                "following": false
+            }
+        },
+        {
+            "slug": "TestArticles2",
+            "title": "TestArticles2Title",
+            "description": "TestArticles2Description",
+            "body": "Share your knowledge and enpower the community by creating a new implementation",
+            "tagList": [
+                "body"
+            ],
+            "createdAt": "2022-12-09T13:46:24.264Z",
+            "updatedAt": "2022-12-09T13:46:24.264Z",
+            "favorited": false,
+            "favoritesCount": 5,
+            "author": {
+                "username": "Anah Benešová",
+                "bio": null,
+                "image": "https://api.realworld.io/images/demo-avatar.png",
+                "following": false
+            }
+        }
+    ],
+    "articlesCount": 2
+}
