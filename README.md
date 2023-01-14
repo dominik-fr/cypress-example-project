@@ -1,8 +1,8 @@
-# CypressExampleProject
+# cypress-example-project
 Examples of Cypress E2E automation for real life applications using Javascript & Typescript.
 
 How to run the project?
-- Install Node JS
+- Install Node JS ^18.13.0 LTS
 - Clone this repo and run "npm install"
 - Clone localhosted apps repos inside cypress project folder and "npm install" them 
 	- for frontend tests use https://github.com/moodyswing/ngx-admin-lite
